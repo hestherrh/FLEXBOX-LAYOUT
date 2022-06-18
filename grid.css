@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:aliceblue;
+  display: flex;
+  place-items:center;
+  min-height: 100vh;
+}
+main{
+  display: grid;
+  gap: 20px;
+  width: 50%;
+  margin: auto;
+}
+main div{
+  padding: 2em;
+  text-align: center;
+  border-radius:5px;
+}
+.item-a{
+  background-color: blueviolet;
+  
+}
+.item-b{
+  background-color: gray;
+  
+}
+.item-c{
+  background-color: white;
+ 
+}
+.item-d{
+  background-color:goldenrod;
+  
+}
+.item-e{
+  background-color:indigo;
+  grid-area:e;
+}
